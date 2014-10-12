@@ -57,3 +57,14 @@ Contents
 * a phpunit bootstrap file;
 * a csv file iterator;
 * a migrate helper to load csv data sources.
+
+Roadmap
+-------
+
+* add platform/configuration detection to better target copies
+* update and add more dependencies, both on composer and drush make
+* remove italian as default language for the install profile
+* add support for javascript testing frameworks
+* add apache vhost templates for all environments
+* add nginx vhost templates
+* add debug and prod environment
