@@ -46,6 +46,9 @@ projects[references][version] = "2.1"
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.7"
 
+projects[smtp][subdir] = "conrib"
+projects[smtp][version] = "1.1"
+
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 

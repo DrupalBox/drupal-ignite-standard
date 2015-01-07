@@ -36,6 +36,7 @@ dependencies[] = references
 dependencies[] = rules
 dependencies[] = search
 dependencies[] = shortcut
+dependencies[] = smtp
 dependencies[] = strongarm
 dependencies[] = system
 dependencies[] = taxonomy
