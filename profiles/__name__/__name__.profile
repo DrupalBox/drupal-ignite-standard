@@ -19,7 +19,7 @@ function __name___install_tasks() {
  * Implements hook_install_tasks() callback
  */
 function __name___configure_site_features() {
-  // Skip if feature's not enabled
+  // Skip if 'features' module is not enabled
   if (!function_exists('features_get_features')) {
     return;
   }
