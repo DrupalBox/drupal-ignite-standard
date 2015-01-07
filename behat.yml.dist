@@ -10,7 +10,7 @@ default:
     features: 'features'
   extensions:
     Behat\MinkExtension\Extension:
-      base_url: 'http://__domain__'
+      base_url: 'http://loc.__domain__'
       files_path: 'features/files'
       goutte: ~
       selenium2: ~
