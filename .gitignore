@@ -53,7 +53,7 @@ behat.yml
 *.tmp
 *.temp
 netbeans
-*.sublime-*
+*.sublime-workspace
 
 # Webserver files #
 ###################

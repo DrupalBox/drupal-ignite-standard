@@ -1,0 +1,39 @@
+{
+  "folders":
+  [
+    {
+      "follow_symlinks": true,
+      "path": "__docroot__"
+    },
+    {
+      "follow_symlinks": true,
+      "path": "__docroot__/sites/all/drush",
+      "name": "__name__ - Drush"
+    },
+    {
+      "follow_symlinks": true,
+      "path": "__docroot__/sites/all/modules",
+      "name": "__name__ - Modules"
+    },
+    {
+      "follow_symlinks": true,
+      "path": "__docroot__/sites/all/themes",
+      "name": "__name__ - Themes"
+    },
+  ],
+  "settings" :
+  {
+    "xdebug": { "url": "http://loc.__domain__/index.php" },
+    "tab_size" : 2,
+    "rulers": [80, 120],
+    "translate_tabs_to_spaces": true,
+    "use_tab_stops": true,
+    "trim_automatic_white_space": true,
+    "trim_trailing_white_space_on_save": true,
+    "ensure_newline_at_eof_on_save": true,
+    "fallback_encoding": "UTF-8",
+    "default_line_ending": "unix",
+    "shift_tab_unindent": true,
+    "word_separators": "./\\()\"'-:,.;~!@#%^&*|+=[]{}`~?"
+  }
+}
