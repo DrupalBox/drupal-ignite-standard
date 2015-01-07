@@ -34,6 +34,14 @@
     "fallback_encoding": "UTF-8",
     "default_line_ending": "unix",
     "shift_tab_unindent": true,
-    "word_separators": "./\\()\"'-:,.;~!@#%^&*|+=[]{}`~?"
+    "word_separators": "./\\()\"'-:,.;~!@#%^&*|+=[]{}`~?<>$",
+    "phpcs" : {
+        "extensions_to_execute": ["php", "inc", "module", "install", "profile"],
+        "extensions_to_blacklist": ["Test.php"],
+        "phpcs_additional_args": {
+            "--standard": "Drupal"
+        },
+        "phpmd_run": true
+    }
   }
 }
